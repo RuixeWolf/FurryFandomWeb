@@ -1,0 +1,107 @@
+/* CSS Document */
+
+/* This is animation CSS file */
+
+.hidden{
+	opacity: 0;
+}
+
+.animation-daly-05{
+    animation-delay: 0.5s;
+}
+
+.animation-daly-10{
+    animation-delay: 1s;
+}
+
+.animation-daly-15{
+    animation-delay: 1.5s;
+}
+
+@keyframes Float{
+	0%{
+		transform: translateY(30px);
+		opacity: 0;
+	}100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.animation-float{
+	animation-name: Float;
+	animation-duration: 0.7s;
+    animation-delay: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fade-out{
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
+
+.animation-fade-out{
+    animation-name: fade-out;
+    animation-duration: 0.7s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes background-cycle{
+    0%{
+        background-image: url("../Image/Background/FursonaFursuit1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }17%{
+        background-image: url("../Image/Background/FursonaFursuit1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }20%{
+        background-image: url("../Image/Background/FursonaFursuit2.jfif");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }37%{
+        background-image: url("../Image/Background/FursonaFursuit2.jfif");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }40%{
+        background-image: url("../Image/Background/FursonaFursuit3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }57%{
+        background-image: url("../Image/Background/FursonaFursuit3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }60%{
+        background-image: url("../Image/Background/FursonaFursuit4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }77%{
+        background-image: url("../Image/Background/FursonaFursuit4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }80%{
+        background-image: url("../Image/Background/FursonaFursuit5.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }97%{
+        background-image: url("../Image/Background/FursonaFursuit5.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }100%{
+        background-image: url("../Image/Background/FursonaFursuit1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.animation-background-cycle{
+    animation-name: background-cycle;
+    animation-duration: 20s;
+	animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

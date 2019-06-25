@@ -1,0 +1,90 @@
+/* CSS Document */
+
+.background-video{
+	position: fixed;
+	width: 100%;
+	z-index: -10;
+    background-color: #fff;
+    object-fit: cover;
+    background-image: url("../../Image/Background/defaultBackgroundImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #E7978E;
+}
+
+.section-1{
+    width: 100%;
+    position: relative;
+}
+
+.section-1-main{
+    margin-top: 39%;
+    width: 100%;
+    height: 200px;
+    color: #fff;
+    background: linear-gradient(to bottom,transparent,rgba(0,0,0,0.7));
+}
+
+.page-directory{
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.page-directory a, .button-bar{
+    display: inline-block;
+    height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    background-color: rgba(255,255,255,0.3);
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    margin: 0 2%;
+    transition: all 0.2s linear;
+}
+
+.section-1-main a:hover{
+    color: #ff550a;
+    border: 3px solid #ff550a;
+}
+
+.button-bar:hover{
+    border: 3px solid #ff550a;
+}
+
+.button-bar button{
+    color: #fff;
+    height: 50px;
+    width: 30px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.2s linear;
+}
+
+.button-bar button:hover{
+    color: #ff550a;
+}
+
+.button-bar button:active{
+    transform: scale(0.9);
+}
+
+.section-target{
+    position: absolute;
+    top: -75px;
+    height: 70px;
+}
+
+.section-style{
+    width: 100%;
+    background: #eee;
+    position: relative;
+    border-top: 7px solid #ff550a;
+    padding: 0;
+}

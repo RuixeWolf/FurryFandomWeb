@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!--Web title & icon-->
+<title>登录</title>
+<link href="../Image/Icon/webTitleIcon.ico" rel="icon" type="image/x-icon" />
+<link href="../Image/Icon/webTitleIcon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<!--CSS-->
+<link href="../CSS/main.css" rel="stylesheet" type="text/css" />
+<link href="../CSS/icon.css" rel="stylesheet" type="text/css" />
+<link href="../CSS/animation.css" rel="stylesheet" type="text/css" />
+<link href="../CSS/separateEachPage/SignIn.css" rel="stylesheet" type="text/css" />
+
+<!--JS-->
+<script type="text/javascript" src="../Script/JavaScript/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="../Script/JavaScript/main.js"></script>
+
+</head>
+
+<body>
+	<div class="page-container clear">
+		<header class="main-header">
+			<a href="../index.html" class="nav-logo">
+				<img src="../Image/Icon/webTitleIcon.png" />
+				<span class="nav-home">Furry</span>
+			</a>
+			<div class="nav-main">
+                <div class="language-choose">
+                    <a href="Language.html">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                </div>
+				<div class="nav-search">
+					<form>
+						<input class="nav-search-text" type="search" name="search" placeholder="搜索..."/>
+						<button class="nav-search-submit mouse-pointer" type="submit" name="submit"><i class="fas fa-search"></i></button>
+					</form>
+				</div>
+                <nav class="main-nav-in-header">
+                    <ul class="nav-url">
+                        <li><a href="../index.html">首页</a></li>
+                        <li><a href="AboutFurry.html">关于兽迷</a></li>
+                        <li><a href="Creation.html">相关创作</a></li>
+                        <li><a href="FursonaFursuit.html">兽设兽装</a></li>
+                        <li><a href="CommunityCommunication.html">社区交流</a></li>
+                        <li><a href="SignIn.html">登录/注册</a></li>
+                    </ul>
+                </nav>
+			</div>
+		</header>
+        <div class="page-default-background"></div>
+        <div class="page-background">
+            <div class="header-background"></div>
+		    <section class="section-style hidden animation-float">
+                <div class="section-title-main-middle">
+			        <h1>用户登录</h1>
+                </div>
+                <div class="sign-in-form">
+                    <form method="post">
+                        <input id="user" required type="text" name="user" placeholder="用户名/账号/邮箱/手机号" />
+                        <input id="password" required type="password" name="password" placeholder="密码" />
+                        <div class="autologin-forgotpassword">
+                            <input type="checkbox" name="autologin" id="autologin" />
+                            <label for="autologin">自动登录</label>
+                            <a href="ResetPassword.html">忘记密码</a>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit">登录</button>
+                        </div>
+                        <div class="opposition">没有账号？<a href="SignUp.html">立即注册</a></div>
+                    </form>
+                </div> 
+		    </section>
+        </div>
+        <footer class="main-footer">
+            <div class="main-footer-wrap">
+			    <div class="footer-main-content">
+                    <ul class="footer-main-content-nav">
+                        <li><a href="../index.html">首页</a></li>
+                        <li><a href="AboutSite.html">关于本站</a></li>
+                        <li><a href="Links.html">友情链接</a></li>
+                        <li><a href="CopyrightInformation.html">版权信息</a></li>
+                        <li><a href="ContactUs.html">联系我们</a></li>
+                        <li><a href="ContactUs.html">语言</a></li>
+                    </ul>
+                    <ul class="footer-main-content-webInfo">
+                        <li>Designer: Ruixe Wolf </li>
+                        <li>Copyright © 2019, Ruixe Wolf </li>
+                        <li>站内图片与视频资源非本站所有，如有侵权请联系站长</li>
+                    </ul>
+                </div>
+                <div class="footer-icon-url">
+                    <a href="mailto:Ruixe1569898391@outlook.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://twitter.com/RuixeWolf"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100011417743332"><i class="fab fa-facebook-square"></i></a>
+                    <a><i class="fab fa-qq"></i></a>
+                    <a><i class="fab fa-weixin"></i></a>
+                </div>
+            </div>
+        </footer>
+	</div>
+</body>
+</html>

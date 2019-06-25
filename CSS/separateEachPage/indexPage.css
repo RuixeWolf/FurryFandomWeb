@@ -1,0 +1,73 @@
+/* CSS Document */
+
+.main-background-image{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-image: url("../../Image/Background/indexMainBackgroundImage.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -10;
+    background-color: #131313;
+}
+
+.section-1{
+    width: 100%;
+    height: 100%;
+}
+
+.section-1-main{
+    float: right;
+    margin-top: 15%;
+    margin-right: 10%;
+    margin-bottom: 23%;
+    width: 420px;
+    height: 300px;
+    color: #fff;
+}
+
+.section-1-main h1{
+    font-size: 36px;
+}
+
+.section-1-main>h1 span{
+    font-size: 50px;
+}
+
+.section-1-main p{
+    font-size: 24px;
+    color: #ddd;
+}
+
+.section-1-main a{
+    margin-top: 40px;
+    display: block;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    transition: all 0.2s linear;
+}
+
+.section-1-main a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.section-target{
+    position: absolute;
+    top: -75px;
+    height: 70px;
+}
+
+.section-2{
+    width: 100%;
+    background: #eee;
+    position: relative;
+    border-top: 7px solid #ff550a;
+    padding: 0;
+}
+
