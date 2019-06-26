@@ -117,7 +117,7 @@ p{
 	float: right;
 	height: 32px;
 	width: 210px;
-	margin: 5px 3px;
+	margin: 5px 0;
     border: 2px solid #2C2C2C;
     border-radius: 7px;
     transition: border-color 0.2s linear;
@@ -152,14 +152,14 @@ p{
 
 .main-nav-in-header{
     float: right;
-    margin: 0 15px 0 0;
+    margin: 0 10px 0 0;
     height: 46px;
     width: auto;
 }
 
 .nav-url li{
     display: inline-block;
-    margin: 0 7px;
+    margin: 0 5px;
     line-height: 46px;
 }
 
