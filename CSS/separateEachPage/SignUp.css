@@ -16,7 +16,8 @@
 
 .section-style{
     width: 100%;
-    height: 600px;
+    min-height: 600px;
+    height: 84vh;
     background: rgba(255,255,255,0.5);
     border-top: 7px solid #ff550a;
     padding: 0;
